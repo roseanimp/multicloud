@@ -1,7 +1,5 @@
 # Primeira Calculadora de IMC em Java Script
 
-! 
-
 Neste projeto foram utilizadas as linguagens **_HTML_**, **_CSS_** e **_JavaScript_**
 
 Abaixo seguem algumas justificativas de preferência pelo **JavaScript**
