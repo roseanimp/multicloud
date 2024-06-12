@@ -2,28 +2,28 @@ document.getElementById('imc-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
     // Obtém os valores de peso e altura
-    const weight = parseFloat(document.getElementById('weight').value);
-    const heightCm = parseFloat(document.getElementById('height').value);
+    const peso = parseFloat(document.getElementById('peso').value);
+    const alturaCm = parseFloat(document.getElementById('altura').value);
 
     // Converte a altura de cm para metros
-    const height = heightCm / 100;
+    const altura = alturaCm / 100;
 
     // Calcula o IMC
-    const bmi = weight / (height * height);
+    const imc = altura / (peso * peso);
 
     // Determina a categoria do IMC
-    let category;
-    if (bmi < 18.5) {
-        category = 'Abaixo do peso';
-    } else if (bmi < 24.9) {
-        category = 'Peso normal';
-    } else if (bmi < 29.9) {
-        category = 'Sobrepeso';
+    let categoria;
+    if (imc < 18.5) {
+        categoria = 'Abaixo do peso';
+    } else if (imc < 24.9) {
+        categoria = 'Peso normal';
+    } else if (imc < 29.9) {
+        categoria = 'Sobrepeso';
     } else {
-        category = 'Obesidade';
+        categoria = 'Obesidade';
     }
 
     // Exibe o resultado
-    const resultElement = document.getElementById('result');
-    resultElement.textContent = `Seu IMC é ${bmi.toFixed(2)} (${category})`;
+    const resultado = document.getElementById('resultado');
+    resultado.textContent = `Seu IMC é ${imc.toFixed(2)} (${categoria})`;
 });
