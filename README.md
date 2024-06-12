@@ -20,10 +20,10 @@ A Calculadora de IMC obtém as informações de peso e altura, imputadas nos res
 
 O resultado será comparado com quatro categorias:
 
-- ** Abaixo do peso: < 18.5
-- ** Peso normal: > 18.5 e < 24.9
-- ** Sobrepeso: > 24.9 e < 30
-- ** Obesidade: > 30
+- ** Abaixo do peso **: < 18.5
+- ** Peso normal **: > 18.5 e < 24.9
+- ** Sobrepeso **: > 24.9 e < 30
+- ** Obesidade **: > 30
 
 O resultado será exibido na tela informado em qual categoria de IMC o usuário se enquadra.
 
