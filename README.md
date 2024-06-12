@@ -16,6 +16,16 @@ Abaixo seguem algumas justificativas de preferência pelo **JavaScript**
 
 ##Como a Calculadora de IMC funciona?
 
-A Calculadora de IMC obtém as informações de peso e altura, imputadas nos respectivos campos. Posteriormente, converte o valor de altura de metros para centimetros.
+A Calculadora de IMC obtém as informações de peso e altura, imputadas nos respectivos campos. Nos campos existem as visualização de exemplo. Caso os campos tenham valores inválidos, negativos ou alfanuméricos por exemplo, após tentar o cálculo será exibido uma mensagem solicitando a correção para padrões válidos. Posteriormente, ocorre a conversão do valor de altura de centimetros para metros e sequencialmente, calcula-se o IMC usando a fórmula: peso / (altura * altura). 
+
+O resultado será comparado com quatro categorias:
+
+- ** Abaixo do peso: < 18.5
+- ** Peso normal: > 18.5 e < 24.9
+- ** Sobrepeso: > 24.9 e < 30
+- ** Obesidade: > 30
+
+O resultado será exibido na tela informado em qual categoria de IMC o usuário se enquadra.
+
 
 
