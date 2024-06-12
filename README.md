@@ -14,6 +14,6 @@ Abaixo seguem algumas justificativas de preferência pelo **JavaScript**
 
 - **Compatibilidade**: É compatível com quase todos os dispositivos e navegadores, desde desktops até smartphones.
 
-
+Com a Calculadora de IMC através das informações do peso e altura, através do cálculo 
 
 
